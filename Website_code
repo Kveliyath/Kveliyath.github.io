@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kartik Veliyath | Mechanical Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #f5f7fa;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1e3a8a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      color: #1e40af;
+      margin-bottom: 1rem;
+    }
+    .card {
+      background-color: white;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+    footer {
+      background-color: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kartik Veliyath</h1>
+    <p>Mechanical Engineering @ Georgia Tech | Passionate about systems design, MSE, and aerospace innovation</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <div class="card">
+      <p>I’m a mechanical engineering student at Georgia Tech with a minor in materials science. From servo demo prototyping to hybrid rocket igniter design, I thrive in fast-paced, interdisciplinary teams. I love building systems that work in the real world and have meaningful impact.</p>
+    </div>
+
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>4-Axis Servo Demo</h3>
+      <p>Designed and assembled a demo for AutomationDirect to showcase motion control using stepper/servo motors, CAD modeling, custom wiring harnesses, and PLC logic integration.</p>
+    </div>
+    <div class="card">
+      <h3>Hybrid Rocket Igniter</h3>
+      <p>Led design of a torch igniter for a vortex-flow N2O/HDPE/propane hybrid rocket. Performed mass flow/OF ratio calculations and thermal modeling using FEA and empirical data.</p>
+    </div>
+    <div class="card">
+      <h3>Graphene Battery Testbed</h3>
+      <p>Collaborated on the CAD and early-stage prototyping of a testbed for graphene-based coin cells. Focused on practical design constraints and manufacturing readiness.</p>
+    </div>
+
+    <h2>Skills</h2>
+    <div class="card">
+      <ul>
+        <li>CAD: SolidWorks (Advanced), Fusion 360 (Intermediate)</li>
+        <li>Simulation: ANSYS, Fusion CAM, basic FEA/CFD</li>
+        <li>Programming: Python (Intermediate), MATLAB (Basic)</li>
+        <li>Manufacturing: 3D Printing, Drill Press, Laser Cutter, Basic CNC</li>
+        <li>Tools: Oscilloscope, Soldering, Power Supply Setup</li>
+      </ul>
+    </div>
+
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: <a href="mailto:kveliyath3@gatech.edu">kveliyath3@gatech.edu</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/kartikveliyath" target="_blank">kartikveliyath</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kartik Veliyath. All rights reserved.</p>
+  </footer>
+</body>
+</html>
